@@ -15,23 +15,25 @@ export default function Footer({ onOpenLeadModal, onScrollTo }) {
           {/* Brand Info & Mission (Col 1-4) */}
           <div className="lg:col-span-4 space-y-5">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-teal-400 p-[1.5px] shadow-[0_0_20px_rgba(6,182,212,0.4)]">
-                <div className="w-full h-full bg-[#0B0F19] rounded-[10px] flex items-center justify-center">
-                  <Zap className="w-5 h-5 text-cyan-400" />
-                </div>
+              <div className="w-12 h-12 rounded-full p-[2px] bg-gradient-to-tr from-cyan-400 via-amber-400 to-teal-400 shadow-[0_0_20px_rgba(6,182,212,0.4)] shrink-0">
+                <img
+                  src="/metatron-logo.png"
+                  alt="METATRON GYM"
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
               <div>
                 <span className="font-display font-black text-xl tracking-wider text-white">
-                  ANTYGRAVITY
+                  METATRON GYM
                 </span>
                 <span className="block text-[10px] tracking-widest uppercase text-cyan-400 font-bold">
-                  Performance Lab & Tech-Fitness
+                  Performance Lab & Consultoría
                 </span>
               </div>
             </div>
 
             <p className="text-slate-400 text-xs sm:text-sm leading-relaxed">
-              Un concepto disruptivo que combina la biomecánica deportiva, la calistenia gravitacional y el biohacking en un ambiente tech-chic de alto impacto.
+              Un concepto disruptivo que combina la consultoría 1-on-1, biomecánica deportiva, calistenia, isometría y biohacking en un ambiente tech-chic de alto impacto.
             </p>
 
             <div className="flex items-center gap-3 pt-2">

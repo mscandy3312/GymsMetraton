@@ -45,8 +45,12 @@ export default function ExitIntentModal({ onClaimPass }) {
         </button>
 
         {/* Top Badge */}
-        <div className="w-14 h-14 rounded-2xl bg-cyan-500/20 border border-cyan-400 flex items-center justify-center mx-auto text-cyan-300 shadow-[0_0_25px_rgba(6,182,212,0.4)]">
-          <Gift className="w-7 h-7" />
+        <div className="w-16 h-16 rounded-full p-[2px] bg-gradient-to-tr from-cyan-400 via-amber-400 to-teal-400 flex items-center justify-center mx-auto shadow-[0_0_25px_rgba(6,182,212,0.5)]">
+          <img
+            src="/metatron-logo.png"
+            alt="METATRON GYM"
+            className="w-full h-full rounded-full object-cover"
+          />
         </div>
 
         <div className="space-y-2">

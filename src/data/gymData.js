@@ -1,11 +1,12 @@
 export const GYM_INFO = {
-  name: "ANTYGRAVITY",
-  tagline: "Performance Lab & Tech-Fitness",
+  name: "METATRON GYM",
+  logo: "/metatron-logo.png",
+  tagline: "Performance Lab & Consultoría Biomecánica",
   city: "Ciudad Innovación",
   address: "Av. Tecnológica 1042, Distrito Financiero (Nivel 2)",
-  phone: "+1 (555) 849-GRAV",
+  phone: "+1 (555) 849-META",
   whatsapp: "+52 1 55 4920 8391",
-  email: "acceso@antygravitylab.com",
+  email: "acceso@metatrongym.com",
   scheduleOverview: "Lunes a Viernes: 06:00 - 23:00 | Sábados: 08:00 - 20:00 | Domingos: 09:00 - 14:00",
   spotsRemainingThisWeek: 7,
 };

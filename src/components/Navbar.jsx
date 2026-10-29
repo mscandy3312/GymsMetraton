@@ -49,24 +49,26 @@ export default function Navbar({ onOpenLeadModal, onScrollTo }) {
             }}
             className="group flex items-center gap-3 cursor-pointer select-none"
           >
-            <div className="relative w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-teal-400 p-[1.5px] shadow-[0_0_20px_rgba(6,182,212,0.5)] group-hover:shadow-[0_0_28px_rgba(6,182,212,0.8)] transition-all duration-300">
-              <div className="w-full h-full bg-[#0B0F19] rounded-[10px] flex items-center justify-center">
-                <Zap className="w-5 h-5 text-cyan-400 group-hover:scale-110 transition-transform duration-300" />
-              </div>
-              <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-cyan-400 rounded-full animate-ping" />
+            <div className="relative w-12 h-12 rounded-full p-[2px] bg-gradient-to-tr from-cyan-400 via-amber-400 to-teal-400 shadow-[0_0_20px_rgba(6,182,212,0.5)] group-hover:shadow-[0_0_30px_rgba(6,182,212,0.8)] transition-all duration-300 shrink-0">
+              <img
+                src="/metatron-logo.png"
+                alt="METATRON GYM Logo"
+                className="w-full h-full rounded-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <span className="absolute -top-0.5 -right-0.5 w-3 h-3 bg-cyan-400 rounded-full animate-ping" />
             </div>
             
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
                 <span className="font-display font-black text-xl tracking-wider text-white group-hover:text-cyan-400 transition-colors">
-                  ANTYGRAVITY
+                  METATRON
                 </span>
-                <span className="text-[10px] uppercase font-bold tracking-widest px-1.5 py-0.5 rounded bg-cyan-500/10 border border-cyan-500/30 text-cyan-400">
-                  LAB
+                <span className="text-[10px] uppercase font-bold tracking-widest px-1.5 py-0.5 rounded bg-amber-500/15 border border-amber-400/40 text-amber-300 font-mono">
+                  GYM
                 </span>
               </div>
               <span className="text-[10px] tracking-widest uppercase text-slate-400 font-medium -mt-0.5">
-                Consultoría & Tech-Fitness
+                Consultoría & Performance Lab
               </span>
             </div>
           </a>

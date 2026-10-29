@@ -157,9 +157,13 @@ export default function Hero({ onOpenLeadModal, onScrollTo }) {
 
                 {/* Floating Tag Top Left */}
                 <div className="absolute top-4 left-4 glass-panel px-3 py-1.5 rounded-full flex items-center gap-2 border border-cyan-500/30">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  <img
+                    src="/metatron-logo.png"
+                    alt="Metatron"
+                    className="w-5 h-5 rounded-full object-cover"
+                  />
                   <span className="text-[11px] font-semibold text-slate-200 tracking-wider uppercase">
-                    Sesión en Vivo: Sala Alpha
+                    METATRON Performance Lab
                   </span>
                 </div>
 

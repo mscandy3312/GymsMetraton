@@ -82,7 +82,7 @@ export default function ConsultingMethodology({ onOpenLeadModal }) {
             </span>
           </h2>
           <p className="text-slate-400 text-base sm:text-lg">
-            Olvídate de pagar un gimnasio para que nadie te supervise. En ANTYGRAVITY operamos como tu equipo de consultoría biomecánica, nutricional y física de alto rendimiento.
+            Olvídate de pagar un gimnasio para que nadie te supervise. En METATRON GYM operamos como tu equipo de consultoría biomecánica, nutricional y física de alto rendimiento.
           </p>
         </div>
 

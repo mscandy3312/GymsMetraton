@@ -75,7 +75,7 @@ export default function LeadCaptureModalOrSection({ isOpen, onClose, initialData
     setIsSubmitting(true);
     // Simulate instantaneous API lead dispatch
     setTimeout(() => {
-      const generatedTicket = 'AGY-' + Math.floor(100000 + Math.random() * 900000);
+      const generatedTicket = 'MTR-' + Math.floor(100000 + Math.random() * 900000);
       setTicketId(generatedTicket);
       setIsSubmitting(false);
       setIsSubmitted(true);
@@ -84,7 +84,7 @@ export default function LeadCaptureModalOrSection({ isOpen, onClose, initialData
 
   const handleWhatsAppRedirect = () => {
     const message = encodeURIComponent(
-      `¡Hola ANTYGRAVITY Lab! Acabo de registrar mi cita para la Sesión de Consultoría & Diagnóstico Biomecánico (${ticketId}). Mi nombre es ${formData.name}. Mi meta es ${formData.goal} en modalidad ${formData.consultingMode}. ¿Me confirman la disponibilidad con mi consultor?`
+      `¡Hola METATRON GYM! Acabo de registrar mi cita para la Sesión de Consultoría & Diagnóstico Biomecánico (${ticketId}). Mi nombre es ${formData.name}. Mi meta es ${formData.goal} en modalidad ${formData.consultingMode}. ¿Me confirman la disponibilidad con mi consultor?`
     );
     window.open(`https://wa.me/${GYM_INFO.whatsapp.replace(/[^0-9]/g, '')}?text=${message}`, '_blank');
   };
@@ -355,7 +355,7 @@ export default function LeadCaptureModalOrSection({ isOpen, onClose, initialData
               ¡Pase Reservado con Éxito!
             </span>
             <h3 className="font-display font-black text-2xl sm:text-3xl text-white">
-              Bienvenido a ANTYGRAVITY, {formData.name}
+              Bienvenido a METATRON GYM, {formData.name}
             </h3>
             <p className="text-slate-300 text-sm max-w-md mx-auto">
               Tu plaza de cortesía ha sido apartada temporalmente en nuestro sistema.
